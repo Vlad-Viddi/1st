@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Испытание: итоговая таблица</title>
+    <!-- <link rel="stylesheet" href="style.css">   styles are given below-->
+  <style type="text/css">
+    body {
+  width: 350px;
+  margin: 0;
+  padding: 0 10px;
+
+  font-size: 14px;
+  font-family: "Arial", sans-serif;
+}
+table {
+  
+  border-bottom: 1px solid lightgray;
+  border-collapse: collapse;
+  width: 100%;
+  }
+  th {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: darkcyan;
+    color: white;
+    padding: 10px;
+
+    }
+    
+    td {
+      padding: 10px;
+      border-bottom: 1px solid lightgray;
+      width: 33%;
+      }
+    
+    .rght {
+      text-align: right;
+      }
+      
+    .cntr {
+      text-align: center;
+      }
+      
+    .lft {
+      text-align: left;
+      }
+      
+    .color {
+      background-color: lightyellow;
+      }
+  </style>
+
+  </head>
+  <body>
+    <h1>Итоговая таблица</h1>
+<table>
+  <tr>
+    <th class="lft" style="width=33%">Город</th>
+    <th class="cntr" style="background-color: lightblue; width=33%;">Посещений</th>
+    <th class="rght" width=33%>%</th>
+  </tr>  
+    <tr>
+    <td class="lft">СПб</td>
+    <td class="cntr">199</td>
+    <td class="rght">65.12</td>
+    </tr>
+    <tr class="color">
+    <td class="lft">Москва</td>
+    <td class="cntr">69</td>
+    <td class="rght">21.3</td>
+    </tr>
+    <tr>
+    <td class="lft">Киев</td>
+    <td class="cntr">5</td>
+    <td class="rght">8</td>
+    </tr>
+    <tr class="color">
+    <td class="lft" colspan="2">Посещений за весь период</td>
+    <td class="rght">273</td>
+    </tr>
+  </table>
+  </body>
+</html>
+
